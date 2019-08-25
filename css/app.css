@@ -15,32 +15,41 @@ body {
   width: 20%;
   margin: 50px auto;
   padding: 10px 20px;
-  height: auto;
-  /* background: brown; */
-  border: 1px solid black;
+  height: 400px;
+  background: #050505;
+  border: 1px solid;
+  border-radius: 20px;
 }
+
 .fs-15 {
   font-size: 15px;
 }
+
 .center {
   text-align: center;
 }
+
 .right {
   text-align: right;
 }
-.red {
-  color: red;
+
+.bg-red {
+  background: red;
 }
+
 .white {
   color: #ffffff;
 }
+
 .bg-blue {
-  background: #17007e;
+  background: #7355f8;
 }
+
 input {
   width: 100%;
   background: #a7a7a7;
   border: none;
+  border-radius: 10px;
   height: 60px;
   color: black;
   font-size: x-large;
@@ -49,43 +58,56 @@ input {
   padding: 10px;
   outline: none;
 }
+
 .fw-b {
   font-weight: bold;
 }
+
 .w-72 {
   width: 72.2%;
 }
+
 .w-100 {
   width: 100%;
 }
+
 .mt-5 {
   margin-top: 5px;
 }
+
 .ml-5 {
   margin-left: 10px;
 }
+
 .btn {
   height: 40px;
   width: 40px;
   border: none;
+  border-radius: 8px;
   outline: none;
 }
+
 .clr {
   height: 40px;
   width: 40px;
   border: none;
+  border-radius: 8px;
   outline: none;
 }
+
 .btn-equal {
   height: 175px;
   width: 40px;
   border: none;
+  border-radius: 8px;
   outline: none;
 }
+
 .flex {
   display: flex;
   justify-content: space-between;
 }
+
 .flexR {
   display: flex;
   justify-content: space-between !important;
