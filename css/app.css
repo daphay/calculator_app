@@ -103,6 +103,12 @@ input {
   outline: none;
 }
 
+.btn:active,
+.clr:active,
+.btn-equal:active {
+  transform: translateY(2px);
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
